@@ -1,0 +1,27 @@
+#include<stdio.h>
+/*ZAIN BAIG,
+UIN=251A014,
+CLASS=AI&DS*/
+int main() {
+    // Write C code here
+
+int p,c,m;
+float avg;
+
+    printf("Enter the Physics Marks  : ");
+    scanf("%d", &p);
+    printf("Enter the Chemistry Marks: ");
+    scanf("%d", &c);
+    printf("Enter the Maths Marks    : ");
+    scanf("%d", &m);
+    
+     //calculate the avg
+     avg= (p+c+m)/3.0 ;
+     printf("Average of marks= %.2f\n ", avg);
+     
+     // using operated condition
+     (avg>=50)? printf("You'r eligible for exam \n"):
+     printf("you'r not eligible for exam \n");
+     
+return 0;
+}
